@@ -5,6 +5,10 @@
 }
 body {
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{    
+    text-transform:uppercase;
 }
 .container {
     width: 80%;
@@ -19,8 +23,13 @@ body {
 .box{
     width: calc(100% /3 - 10px);
     float: left;
+    margin-right: 10px;
+    margin-bottom: 150px;
+
+
 }
 
+/* *****immagini***** */
 .img-pag{
     width: 100%;
     height: 600px;
@@ -40,7 +49,18 @@ body {
 .box:hover .img-hover{
     display: inline-block;
 }
-/***** * debug * *****/
+/* *****didascalia***** */
+.marca-txt{
+    font-size: smaller;
+}
+.prezzo-txt{
+    font-size: small;
+    color: red;
+}
+.sconto-txt{
+    text-decoration: line-through;
+}
+/* ***** debug ***** */
 
 /* .container.debug{
     height: 600px;
@@ -51,6 +71,4 @@ body {
     height: 600px;
     background-color: lightseagreen;
     /* border: 1px solid black; */
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
