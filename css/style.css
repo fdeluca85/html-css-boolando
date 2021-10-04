@@ -6,3 +6,31 @@
 body {
     background-color: white;
 }
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.box{
+    width: calc(100% /3 - 10px);
+    float: left;
+}
+
+/* debug */
+.container.debug{
+    height: 600px;
+    background-color: lightcoral;
+}
+
+.debug .box{
+    height: 600px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
