@@ -10,6 +10,8 @@ body {
 h3{    
     text-transform:uppercase;
 }
+
+/* *****common***** */
 .container {
     width: 80%;
     margin: 30px auto;
@@ -21,16 +23,43 @@ h3{
     clear: both;
 }
 .box{
+    height: 600px;
     width: calc(100% /3 - 10px);
     float: left;
     margin-right: 10px;
     margin-bottom: 150px;
     position: relative;
-
-
 }
 
-.preferito{
+/* *****etichette***** */
+.etichetta{       
+    height: 30px;
+    width: auto;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+
+}
+.et-sconto{
+    position: relative;
+    background-color: red; 
+    z-index: 2;
+}
+.et-sostenibilita{
+    position: relative;
+    background-color: green;
+    z-index: 1;
+
+}
+.txt-etichetta{
+    color: white;
+    font-size: small;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.et-preferito{
     background-color: white;
     height: 50px;
     width: 50px;
@@ -41,6 +70,7 @@ h3{
     text-align: center;
     line-height: 50px;
 }
+
 /* *****immagini***** */
 .img-pag{
     width: 100%;
@@ -61,6 +91,7 @@ h3{
 .box:hover .img-hover{
     display: inline-block;
 }
+
 /* *****didascalia***** */
 .marca-txt{
     font-size: smaller;
@@ -81,8 +112,8 @@ h3{
     background-color: lightcoral;
 } */
 
-.debug .box{
+/* .debug .box{
     height: 600px;
     background-color: lightseagreen;
     /* border: 1px solid black; */
-}
+} */
