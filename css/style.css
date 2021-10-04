@@ -25,10 +25,22 @@ h3{
     float: left;
     margin-right: 10px;
     margin-bottom: 150px;
+    position: relative;
 
 
 }
 
+.preferito{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: larger;
+    text-align: center;
+    line-height: 50px;
+}
 /* *****immagini***** */
 .img-pag{
     width: 100%;
@@ -60,6 +72,8 @@ h3{
 .sconto-txt{
     text-decoration: line-through;
 }
+
+
 /* ***** debug ***** */
 
 /* .container.debug{
